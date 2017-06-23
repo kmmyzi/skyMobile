@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<title>联系我们-天瑞教育集团</title>
+<link type="text/css" rel="stylesheet" href="../css/index.css" />
+<link rel="stylesheet" type="text/css" href="../css/about.css"/>
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="../js/jquery.luara.0.0.1.min.js"></script>
+<style type="text/css">
+			.amap-ui-smp-ifwn-content-body {
+			    background: #f5e038!important;
+			    border-radius: 15px!important;
+			}
+			.amap-ui-smp-ifwn-info-title {
+			    font-size: 110%;
+			    font-weight: 1600!important;
+			    text-overflow: ellipsis;
+			    white-space: nowrap;
+			    padding: 2px 25px 2px 2px;
+			    border-bottom: 1px solid transparent!important;
+			    margin: 0;
+			    color: #094eff;
+			    line-height: 150%;
+			}
+			.amap-ui-smp-ifwn-info-title strong{
+				font-weight: 1600!important;
+			}
+			.amap-ui-smp-ifwn-info-content {
+			    color: #094eff!important;
+			}
+			.amap-ui-smp-ifwn-combo-sharp {
+			    background: url(http://image.sunapollo.com/img/tr/connection/Polygon%201.png) no-repeat -5px -16px!important;
+			}
+			#container{
+				height: 400px;
+				margin-top: 10px;
+				width: 100%;
+			}
+/*http://image.sunapollo.com/img/tr/connection/Polygon%201.png*/
+		</style>
+		<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=f022f96ede2f7fd43c4d208462327489"></script> 
+		  <script src="//webapi.amap.com/ui/1.0/main.js"></script>
+    <script type="text/javascript">
+    //创建地图
+    var map = new AMap.Map('container', {
+        zoom: 4
+    });
+
+    AMapUI.loadUI(['overlay/SimpleInfoWindow'], function(SimpleInfoWindow) {
+
+        var marker = new AMap.Marker({
+            map: map,
+            zIndex: 9999999,
+            position: map.getCenter()
+        });
+
+        var infoWindow = new SimpleInfoWindow({
+
+            infoTitle: '<img src="http://image.sunapollo.com/img/tr/bc/lxwmdhk_03.png" alt="" style="width:200px; margin-top:10px;"/>',
+            infoBody: '<p class="my-desc"><img src="http://image.sunapollo.com/img/tr/connection/phone.svg" alt="" />&nbsp;<strong>电话：400-0351-554</strong> <br/><img src="http://image.sunapollo.com/img/tr/connection/db.svg" alt="" /> 地址：' +
+                '山西省太原市迎泽西大街与千峰南路口东南角千峰商务大厦六层601</p>',
+            //基点指向marker的头部位置
+            offset: new AMap.Pixel(0, -31)
+        });
+
+        function openInfoWin() {
+            infoWindow.open(map, marker.getPosition());
+        }
+
+        //marker 点击时打开
+        AMap.event.addListener(marker, 'click', function() {
+            openInfoWin();
+        });
+
+        openInfoWin();
+    });
+    </script>
+</head>
+<body>
+<!--header start-->
+<div class="Nav1">
+	<div class="Nav2"></div>
+	<div class="Nav">
+		<a href="../index.html"><li>首页</li></a>
+		<a href="about.html"><li>关于天瑞</li></a>
+		<a href="dynamic.html"><li>专业设置</li></a>
+		<a href="lucky.html"><li>天瑞动态</li></a>
+		<a href="teacher.html"><li>精锐师资</li></a>
+		<a href="performance.html"><li>教学业绩</li></a>
+		<a href="zone.html"><li>学员专区</li></a>
+		<a href="javascript:;"><li>联系我们</li></a>
+    </div>
+</div>
+<script>
+$(document).ready(function(){
+  $(".daohan").click(function(){
+	 $(".Nav1").slideDown("slow");
+  });
+  $(".Nav2").click(function(){
+	$(".Nav1").slideUp("slow");
+  });
+});
+</script>
+<!--头部-->
+<div class="head">
+	<a href="index.php"><div class="logo fl"><img src="http://v1.sunapollo.com/abouttrlogo_03.png"></div></a>
+    <div class="daohan fr"><img src="http://v1.sunapollo.com/abouttrlogo_06.png"></div>
+    <div class="clear"></div>
+</div>
+<!--头部-->
+<!--banner-->
+<div class="banner">
+	<div class="example2">
+        <ul>
+			<li><img src="http://image.sunapollo.com/img/tr/connection1.png" ></li>
+			<li><img src="http://image.sunapollo.com/img/tr/connection1.png" ></li>
+			<li><img src="http://image.sunapollo.com/img/tr/connection1.png" ></li>
+        </ul>
+        <ol>
+           <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+    </div>
+    <!--Luara图片切换骨架end-->
+    <script>
+        $(function(){
+            <!--调用Luara示例-->
+            $(".example2").luara({height:"120",interval:4500,selected:"seleted",deriction:"left"});
+        });
+    </script>
+</div>
+<!--banner-->
+<!--header end-->
+<div class="box">
+	<div class="boxCon">
+		<img src="http://image.sunapollo.com/Contact%20%20Us.png"/>
+	</div>
+</div>
+<div id="container"></div>
+<div class="contactCon">
+	<div class="mh">
+		<div class="mhTitles">乘车路线</div>
+	</div>
+	<div class="mh">
+		<div class="mhTitle">太原火车站 :</div>
+		<div class="mhCon1">乘坐1路、859路  在千峰路口下车；乘坐611在万柏林区委下车 .</div>
+	</div>
+	<div class="mh">
+		<div class="mhTitle">太原南站 :</div>
+		<div class="mhCon">乘坐813路在千峰路口下车；乘坐868路在万柏林区委下车；824路千峰南路后王街口下车 。 </div>
+	</div>
+</div>
+<div class="ewm">
+	<div class="ewmCon">
+		<div class="ewmList">
+			<img src="http://image.sunapollo.com/trewm1.png" alt="" />
+			<div class="ewmTitle">天瑞影视文化</div>
+		</div>
+		<div class="ewmList">
+			<img src="http://image.sunapollo.com/trewm2.png" alt="" />
+			<div class="ewmTitle">艺考嘚吧嘚</div>
+		</div>
+	</div>
+</div>
+	<!--首页栏目-->
+<div style="height:100px;"></div>
+<div class="dibu">
+	<a href="../index.html"><li><img src="http://image.sunapollo.com/dd11_03.png"/><div>关于天瑞</div></li></a>
+	<a href="about.html"><li><img src="http://image.sunapollo.com/diduan_05.png"/><div>天瑞动态</div></li></a>
+	<a href="javascript:scroll(0,0)"><li><img src="http://image.sunapollo.com/fhdb_03.png" class="dibu5"/></li></a>
+	<a href="teacher.html"><li><img src="http://image.sunapollo.com/diduan_07.png"/><div>天瑞师资</div></li></a>
+	<a href="javascript:;"><li class="lion"><img src="http://image.sunapollo.com/dd11_09.png"/><div>联系我们</div></li></a>
+	<div class="clearfix"></div>
+</div>
+<script type="text/javascript">
+			var map = new AMap.Map('container',{
+    zoom: 16,
+    center: [112.519254,37.856844]//new AMap.LngLat(116.39,39.9)
+});
+		</script>
+</body>
+</html>

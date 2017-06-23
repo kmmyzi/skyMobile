@@ -1,0 +1,390 @@
+@import url(./base.css);
+.navbar-toggle img{
+	width:22px;
+}
+.navbar-brand img{
+	width:111px;
+}
+.navbar-inverse {
+    background-color:rgba(0,0,0,.0);
+}
+.navbar {
+    margin-bottom: 0px;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: rgba(0,0,0,.0);
+}
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+.video-js .vjs-big-play-button {
+    font-size: 4em;
+    line-height: 1.6em;
+    height: 1.6em;
+    width: 1.6em;
+    top: 50%;
+    left: 50%;
+    margin-top: -34.3px;
+    margin-left: -34.4px;
+    padding: 0;
+    color: #fdbe08;
+    border: 0.06666em solid #fdbe08;
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    box-shadow: 4px 5px 35px #000;
+}
+#my-video{
+	width:100%;
+}
+#my-video_html5_api{
+	width:100%;
+}
+.vjs-poster{
+	width{
+		width:100%;
+	}
+}
+.jtjj,.trhj{
+	width:100%;
+}
+.jtjjTop,.trhjTop{
+	width: 241px;
+	margin: 25px auto 10px;
+}
+.jtjjBottom{
+	width: 100%;
+	padding:15px;
+	margin: 10px auto;
+	box-sizing: border-box;
+	color:#898989;
+	text-spacing: .2rem;
+	text-indent: 2rem;
+	font-size: 1.2rem;
+}
+.jtjjTop img,.trhjTop img{
+	width: 100%;
+}
+.trbxts{
+	width: 100%;
+	overflow: hidden;
+}
+.trbxTop{
+	width:222px;
+	margin: 20px auto;
+}
+.trbxTop img{
+	width: 100%;
+}
+.trbxBottom{
+	width: 100%;
+	
+}
+.trbxBottom img{
+	width:97%;
+	padding: 10px;
+}
+.ryzz{
+	width:100%;
+	margin-bottom: 300px;
+}
+.ryzzTop{
+	width:156px;margin: 20px auto;
+}
+.ryzzTop img{
+	width: 100%;
+}
+.row{
+	width:100%;
+	margin-left: 0px;
+}
+.col-lg-6{
+	width:47%;
+	padding:5px;
+	float: left;
+}
+.c1{
+	margin-bottom: 120px;
+}
+.col-lg-6 img{
+	width:100%;
+}
+.aboutTrVideo img{
+	width:100%
+}
+.zyszTop1{
+	width:193px;
+	margin: 20px auto;
+}
+.zyszTop1 img{
+	width:100%;
+}
+.zyszBottom{
+	width:100%;
+	height:auto;
+}
+.zyszBottomList{
+	margin-bottom: 10px;
+	width:100%;
+	height:118px;
+	padding: 0 10px;
+}
+.zyszBottomListLeft,.zyszBottomListRight{
+	float: left;
+}
+.zyszBottomListLeft img{
+	width:100%;
+}
+.zyszBottomListLeft{
+	width:40%;
+}
+.zyszBottomListRight{
+	width:55%;
+	padding-left: 10px;
+	color:#898989;
+}
+.zyszBottomListRightTop{
+	font-size: 1.4rem;
+}
+.zyszBottomListRightBottom{
+	font-size: 1rem;
+}
+.trbxBottom1 img{
+	width:100%;
+}
+.trjrsz{
+	width:184px;
+	margin: 15px auto;
+}
+.trjrsz img{
+	width:100%;
+}
+.teacher{
+	width:100%;
+}
+.teacherCon{
+	width:85%;
+	margin: 0 auto;
+	height:122px;
+}
+.teacherLeft{
+	float: left;
+}
+.teacherRight{
+	float: right;
+}
+.teacherLeft{
+	width:22%;
+}
+.teacherRight{
+	height:114px;
+	width: 75%;
+	background: rgba(255,255,255,.1);
+	color:#898989;
+	font-size: 1.2rem;
+	text-indent: 2rem;
+}
+#content .tRTop{
+	font-size: 1.2rem;
+	line-height:2rem;
+}
+.trjxyj{
+	width:200px;
+	margin:15px auto;
+}
+.jxzy{
+	width:100%;
+}
+.jxzyCon{
+	width:85%;
+	margin: 10px auto;
+	background: #FDBE08;
+	padding: 10px;
+	height: 148px;
+}
+.jxzyLeft{
+	float: left;
+	width:35%;
+}
+.jxzyRight{
+	float: right;
+	width: 60%;
+}
+.boxCon{
+	width: 162px;
+	margin: 0 auto;
+}
+.mh{
+	/*width:100%;*/
+	width:95%;
+	margin: 0 auto;
+}
+.mhTitles{
+	font-size: 1.4rem;
+	color:#898989;
+	
+	line-height: 4rem;
+	margin-bottom: 10px;
+	
+	
+}
+.mhTitle,.mhCon,.mhCon1{
+	float: left;
+	color: #898989;
+}
+.mhCon1{
+	text-align: center;
+	width:76%;
+	line-height: 1.8rem;
+	font-size: 1rem;
+}
+.mhTitle{
+	width:24%;
+}
+.mhCon{
+width:76%;
+font-size: 1rem;
+line-height: 1.8rem;
+margin-bottom: 50px;
+}
+.ewm{
+	width:100%;
+}
+.ewmCon{
+	width:55%;
+	margin: 0 auto;
+	height: 140px;
+}
+.ewmList{
+	width:45%;
+	height: 100%;
+}
+.ewmList:first-child{
+	float: left;
+}
+.ewmList:nth-child(2){
+	float: right;
+}
+.ewmTitle{
+	text-align: center;
+	color: #898989;
+	margin-bottom: 150px;
+}
+.ewmList img{
+	width:100%;
+}
+ul,li{ list-style: none}
+.tabClick{ background: #000; padding: 5px 0; overflow: hidden}
+.tabClick li{  color:#898989; width: 25%; float: left; text-align: center;padding-top: 15px;}
+.tabClick li.active{ color: #898989; transition: 0.1s; font-weight: bold}
+.tabCon{ overflow: hidden}
+.tabBox{ position: relative}
+.tabList{ background: #000;word-break: break-all; width:100%;float:left; line-height:100px; color:#D3D3D3;font-size: 1.4rem;}
+.lineBorder{ height: 2px; overflow: hidden; border-bottom:1px solid #000; background: #000;}
+.lineDiv{ background: #b3a069; height: 2px; width: 17%;
+margin: 0 4%;}
+.tabListTitle{
+	width:95%;
+	margin: 0 auto;
+	border-top:1px solid #434343;
+}
+.tabLisTitleA{
+	display: block;
+}
+.tabListTitle:first-of-type{
+	margin-top: 15px;
+	width:95%;
+}
+.tabListTitle:last-of-type{
+	margin-bottom: 150px;
+	border-bottom: 1px solid #434343;
+}
+.tabListTitleATitle,.tabLisTitleADate,.tabLisTitleAImg{
+	/*width:90%;*/
+	margin: 0 auto;
+}
+.tabListTitleATitle{
+	color: #898989;
+}
+.tabLisTitleADate{
+	color:#363636;
+}
+.tabListTitleATitles{
+	color: #898989;
+}
+.tabLisTitleALeft,.tabLisTitleARight{
+	width:48%;
+	float: left;
+}
+.tabLisTitleARight{
+	margin-left: 4%;
+}
+.tabListTitleATitle{
+	font-size: 1.3rem;
+	line-height: 3rem;
+}
+.tabLisTitleADate{
+	font-size: 1.2rem;
+	line-height: 2rem;
+}
+.tabLisTitleALeft .tabListTitleATitles{
+	font-size: 1.3rem;
+	line-height: 2rem;
+}
+a.r2{
+	padding-top: 10px;
+	
+}
+.r1{
+	height: 140px;
+}
+.tabLisTitleADates{
+	font-size: 1.2rem;
+	line-height: 2rem;
+	color: #363636;
+}
+.tabLisTitleAImg{
+	height:127px;
+}
+.tabLisTitleAImg img{
+	float: left;
+	width:48%;
+}
+.tabLisTitleAImg img:nth-child(2){
+	margin-left: 4%;
+}
+.tabLisTitleAP{
+	width:95%;
+	margin: 0 auto;
+}
+.tabLisTitleAP p{
+	text-indent: 2rem;
+	color:#898989;
+	line-height: 1.8rem;
+}
+.a1{
+	width:93%;
+	margin: 0 auto;
+	color:#898989;
+}
+.a1Title{
+	width:100%;
+	font-size: 1.4rem;
+	text-align: center;
+}
+.a1Day{
+	text-align: center;
+	line-height:5rem;
+}
+.a1 p{
+	text-indent: 2rem;
+	padding: 10px 0;
+	line-height: 1.8rem;
+}
+.a1Img,.a1Video{
+	margin-bottom: 15px;
+}
+.a1Con{
+	margin-bottom: 35px;
+}
