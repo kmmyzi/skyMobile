@@ -13,7 +13,7 @@ a{
 body{
 	color:#434343;
 	background-color: #000;
-	background:url(http://image.sunapollo.com/img/tr/crack/bg_02.png);
+	background: url(http://v1.sunapollo.com/img/tr/bg_02.png) repeat !important;
 	font-family: "微软雅黑", Segoe, "Segoe UI", "DejaVu Sans",sans-serif;
 }
 /*, "Trebuchet MS", Verdana*/
