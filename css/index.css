@@ -227,7 +227,7 @@ input,textarea { -moz-border-radius: 0px; -webkit-border-radius: 0px; border-rad
 .focus-banner-imgRightBottom{
 	position: absolute;
 	top:50%;
-	margin-top:-45px ;
+	margin-top:-28px ;
 	color: #fff;
 	text-indent: 2em;
 	padding: 2px 5px;
@@ -245,7 +245,7 @@ input,textarea { -moz-border-radius: 0px; -webkit-border-radius: 0px; border-rad
 .q{
 	position: absolute;
 	bottom: 50%;
-	margin-bottom: -38px;
+	margin-bottom: -18px;
 	right:5px ;
 	color:#FDBE08!important;
 }

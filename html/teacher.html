@@ -48,13 +48,16 @@ img,a img{
 .gallery li a img{
 	width:100%;
 }
-#content{width:75%;height:114px;overflow:hidden;}
+#content{width:65%;height:167px;overflow:hidden;}
  p{color:#999;font-size:12px;margin:5px 0;text-align:left;text-indent:2em;}
  .tRTop{
     	font-size: 1.2rem;
     	color:#898989;
-    	margin-left: -30px;
     	line-height: 2rem;
+    	text-indent: 0em;
+   }
+   .trBottom{
+   	line-height: 25px;
    }
 	</style>
 	<link rel="stylesheet"  href="http://www.jq22.com/demo/jQuery-zoom-150104224507/css/zoom.css" media="all" />
@@ -172,7 +175,7 @@ $(document).ready(function(){
 		</div>
 	</div>
 </div>
-<div class="teacher">
+<!--<div class="teacher">
 	<div class="teacherCon">
 		<div class="teacherLeft"><img src="../img/teacher_28.png" alt="" /></div>
 		<div class="teacherRight" id="content5">
@@ -180,7 +183,7 @@ $(document).ready(function(){
 			<p class="trBottom">          2012.9至2013.5绵阳电视台   汽车频道主播 ;  2013.9至2014.6成都电视台出镜记者。在校期间担任四川省统计系统庆祝共产党成立九十周年文艺汇演主持人，省级优秀干部，毕业论文发表省级刊物《卷宗》; </p>
 		</div>
 	</div>
-</div>
+</div>-->
 <div class="teacher">
 	<div class="teacherCon">
 		<div class="teacherLeft"><img src="../img/teacher_30.png" alt="" /></div>
@@ -209,6 +212,28 @@ $(document).ready(function(){
 		<div class="teacherRight" id="content8">
 			<p class="tRTop">编导首席讲师   张仕林</p>
 			<p class="trBottom">         毕业于山西大学新闻传播系，曾任职于山西日报政法部记者，优步中国北西区市场部媒体公关，实践经验丰富，授课形式风趣幽默、深入浅出，主讲影视评论与分析、摄影摄像、艺术概论等课程。
+</p>
+		</div>
+	</div>
+</div>
+<div class="teacher">
+	<div class="teacherCon">
+		<div class="teacherLeft"><img src="../img/gjw.png" alt="" /></div>
+		<div class="teacherRight" id="content9">
+			<p class="tRTop">编导首席讲师     郭嘉伟</p>
+			<p class="trBottom">
+         毕业于云南艺术学院广播电视学专业。毕业作品获学校最佳电视节目奖，并且选送参加金鸡百花电影节参赛。曾在湖南卫视跨年演唱会担任导演助理一职，曾在缅甸的佤邦传媒电视台担任记者。
+</p>
+		</div>
+	</div>
+</div>
+<div class="teacher">
+	<div class="teacherCon">
+		<div class="teacherLeft"><img src="../img/lpy.png" alt="" /></div>
+		<div class="teacherRight" id="content10">
+			<p class="tRTop">编导首席讲师     梁宇鹏</p>
+			<p class="trBottom">
+         现就职于山西出版传媒集团，多年从事高考编导艺考教育教学工作。从业以来，常年保持100%艺考通过率，在编导教学过程中融合多方面知识，开拓学生思路，培养学习兴趣，提高学生综合素质。生动、风趣、负责的教学风格，赢得了大量学生以及学生家长的信赖。在学生当中广受好评。
 </p>
 		</div>
 	</div>
@@ -299,6 +324,24 @@ $(document).ready(function(){
                 autohidemode: false //是否隐藏滚动条
             });
             $('#content8').niceScroll({
+                cursorcolor: "#ccc",//#CC0071 光标颜色
+                cursoropacitymax: 1, //改变不透明度非常光标处于活动状态（scrollabar“可见”状态），范围从1到0
+                touchbehavior: false, //使光标拖动滚动像在台式电脑触摸设备
+                cursorwidth: "5px", //像素光标的宽度
+                cursorborder: "0", // 	游标边框css定义
+                cursorborderradius: "5px",//以像素为光标边界半径
+                autohidemode: false //是否隐藏滚动条
+            });
+            $('#content9').niceScroll({
+                cursorcolor: "#ccc",//#CC0071 光标颜色
+                cursoropacitymax: 1, //改变不透明度非常光标处于活动状态（scrollabar“可见”状态），范围从1到0
+                touchbehavior: false, //使光标拖动滚动像在台式电脑触摸设备
+                cursorwidth: "5px", //像素光标的宽度
+                cursorborder: "0", // 	游标边框css定义
+                cursorborderradius: "5px",//以像素为光标边界半径
+                autohidemode: false //是否隐藏滚动条
+            });
+            $('#content10').niceScroll({
                 cursorcolor: "#ccc",//#CC0071 光标颜色
                 cursoropacitymax: 1, //改变不透明度非常光标处于活动状态（scrollabar“可见”状态），范围从1到0
                 touchbehavior: false, //使光标拖动滚动像在台式电脑触摸设备
